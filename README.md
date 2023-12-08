@@ -8,7 +8,7 @@ Our tools and curriculum are completely free and self-paced. We're in the proces
 * [Code of Conduct](CODE_OF_CONDUCT.md)
 * Contributing
 * Platform, Build, and Deployment Status
-* License
+* [License](LICENSE)
 
 ## Roadmap
 Our roadmap typically looks out 12 months and we establish topics we want to work on. We'll develop our roadmaps based on previous roadmap, the findings we made over the course of the last year, and of course what we hear from you in issues and feature requests.

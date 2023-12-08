@@ -3,3 +3,8 @@
 
 Our tools and curriculum are completely free and self-paced. We're in the process of adding more courses, interview materials, and interatcive database challenges to help you upskill.
 
+## Table of Contents
+* Roadmap
+* Contributing
+* Platform, Build, and Deployment Status
+* License

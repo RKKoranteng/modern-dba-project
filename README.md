@@ -6,7 +6,7 @@ Our tools and curriculum are completely free and self-paced. We're in the proces
 ## Table of Contents
 * [Roadmap](#roadmap)
 * [Code of Conduct](CODE_OF_CONDUCT.md)
-* Contributing
+* [Contributing](CONTRIBUTING.md)
 * Platform, Build, and Deployment Status
 * [License](LICENSE)
 

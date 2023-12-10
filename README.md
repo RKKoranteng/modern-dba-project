@@ -9,3 +9,8 @@ Our tools and curriculum are completely free and self-paced. We're in the proces
 * [Contributing](CONTRIBUTING.md)
 * Platform, Build, and Deployment Status
 * [License](LICENSE)
+
+## Roadmap
+[Our roadmap](#) typically looks out 12 months and we establish topics we want to work on. We'll develop our roadmaps based on the previous roadmap, the findings we made over the last year, and of course what we hear from you in issues and feature requests.
+
+When we execute on our roadmap, we keep learning and our assessment of some of the topics listed changes. As a result, we may add or drop topics as we go. 

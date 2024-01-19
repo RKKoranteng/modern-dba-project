@@ -1,8 +1,8 @@
 ## DBGuru's open-source codebase and curriculum
 Hi, welcome to The Modern DBA Project; a project where I share my experiences, training materials, projects, etc to help you supercharge your database admin skill.
 
-* **Who is this intended for? : ** This project is intended for working DBAs that are looking to modernize their skills.
-* **How do it work? : ** This project will contain both theory and project-based learning.
+* **Who is this intended for?** This project is intended for working DBAs that are looking to modernize their skills.
+* **How do it work?** This project will contain both theory and project-based learning.
 
 ### What's a 'modern DBA' ?
 Just like many other IT desciplines, the database admin (DBA) is undergoing a make-over inorder to provide added value and respond to todays user demands. Traditionally DBAs have been veiwed as gatekeepers. Most traditional DBAs will tell you that it is their job to protect the company by protecting it’s data. Although this is VERY true, we're at a point where we're reinvisioning the DBA as a facilitator and accelerator. This is the current state of database administration; more engineering, less administration.

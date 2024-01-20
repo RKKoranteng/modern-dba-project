@@ -58,9 +58,20 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 
 ## Setup your practice environment
 1. We'll be using GitHub as our remote repo. [Create a GitHub acoount (it's free).](https://github.com/join)
-1. We'll be using Git Bash as our emulation layer for Git command line. [Download Git Bash (it's free).](https://git-scm.com/downloads)
+1. We'll be using Git Bash as our emulation layer for Git command line. [Download and install Git Bash (it's free).](https://git-scm.com/downloads)
 1. [Setup access and write data in repositories on GitHub.com using SSH.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+1. Setup your identity on Git Bash (your username and emai). This is important because every Git commit uses this information.
+```
+# in this example, I'm setting git username to 'Mike Jones'...(please put your GithHub username)
+$ git config --global user.name "Mike Jones"
 
+# in this example, I'm setting git email to 'mjones@who.com' ...(please put your GitHub email)
+$ git config --global user.email mjones@who.com
+
+# confirm your global git identity on Git Bash has been setup correct
+$ git config --global user.name
+$ git config --global user.email
+```
 
 ## Practice
 ### Commit to a local repo

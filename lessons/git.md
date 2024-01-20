@@ -1,6 +1,6 @@
 # Git
 * [What is Git](#what-is-git)
-* [Git vs GitHub vs GitLab](#git-vs-github-gitlab)
+* [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
 * [Practice](#practice-1)

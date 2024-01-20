@@ -3,6 +3,7 @@
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
+* [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
   * [Commit to a local rep](#commit-to-a-local-repo)
 
@@ -55,6 +56,12 @@ If you want to pull down the latest changes from a remote repo without overwriti
 
 Fetch is great for getting a fresh view on all the things that happened in a remote repository. Due to it's "harmless" nature, you can rest assured fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
 
+## Setup your practice environment
+1. We'll be using GitHub as our remote repo. [Create a GitHub acoount (it's free).](https://github.com/join)
+1. We'll be using Git Bash as our emulation layer for Git command line. [Download Git Bash (it's free).](https://git-scm.com/downloads).
+1. [Setup access and write data in repositories on GitHub.com using SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+
 ## Practice
 ### Commit to a local repo
 In this example, you'll create a local git repo and add your first commit
@@ -81,7 +88,7 @@ $ git add fav-books.txt
 # see working tree to see change after staging file
 $ git status
 
-# save modified file into git directory
+# save modified file into git directory with a commit message/description 'adding my favorit books'
 # this also creates a savepoint/snapshot of the repo
 $ git commit -m 'adding my favorit books'
 ```
@@ -90,5 +97,24 @@ $ git commit -m 'adding my favorit books'
 In this example, you'll modify a git tracked file, then push the changes to a remote repo
 
 ```
-# add new entry to you file
+# add new entry to youe file 'fav-books.txt' 
 $ echo "Atomic Habits (by James Clear)" >> fav-books.txt
+
+# see working tree to see change after staging file
+$ git status
+
+# move the modified file from your local working directory to you local staging area
+# again, the changes to your file are now ready to be added to your next commit
+$ git add fav-books.txt
+
+# commit changes in the file with a message/description 'updating my favortite books'
+# again, this now logically place the file in your local git directory
+$ git commit -m 'updating my favorite books'
+
+# since this local repo does not exist in a remote repo, you have to first create a new connection record to a remote repository.
+# usage: 'git remote add <name> <url>'
+# in the example below, I'm connecting my local repo (my-interests) to a remote repo on GitHub (please put your own GitHub url).
+$ git remote add test https://github.com/RKKoranteng/test
+
+#  the current local repo branch master has no upstream (remote) branch, therefor push the current branch and set the remote as upstream
+$ git push --set-upstream test master

@@ -82,12 +82,11 @@ In this example, you'll use Git command to clone your remote repo (on GitHub) to
 1. [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
 1. Use the following command to clone remote repo to local
 ```
-# in this example, I'm cloning the repository using an SSH key
+# in this example, I'm cloning the repository using an SSH key ...(please put your own repo url)
 $ git clone git@github.com:MIKEJONE/hello-world.git
 
 # once clone from remote repo is completed, you should see it on local repo.
 $ ls -ltr
-$ cd hello-world
 ```
 
 ### Commit to a local repo

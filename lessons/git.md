@@ -62,7 +62,7 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 1. [Setup access and write data in repositories on GitHub.com using SSH.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 1. setup your identity (username & email) in Git Bash. This is important because every Git commit uses this information. You need to do this only once if you pass the `--global` option, because then Git will always use that information for anything you do on that system. 
 ```
-# in this example, I'm setting git username to 'Mike Jones'...(please put your GithHub username)
+# in this example, I'm setting git username to 'Mike Jones'...(please put your GitHub username)
 $ git config --global user.name "Mike Jones"
 
 # in this example, I'm setting git email to 'mjones@who.com' ...(please put your GitHub email)
@@ -74,6 +74,22 @@ $ git config --global user.email
 ```
 
 ## Practice
+### Create your first repo
+Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk)
+
+### Clone remote repo to your local laptop
+In this example, you'll use Git command to clone your remote repo (on GitHub) to your local repo (on your laptop).
+1. [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
+1. Use the following command to clone remote repo to local
+```
+# in this example, I'm cloning the repository using an SSH key
+$ git clone git@github.com:MIKEJONE/hello-world.git
+
+# once clone from remote repo is completed, you should see it on local repo.
+$ ls -ltr
+$ cd hello-world
+```
+
 ### Commit to a local repo
 In this example, you'll create a local git repo and add your first commit
 

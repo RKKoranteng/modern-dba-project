@@ -29,6 +29,5 @@ Git has three main states that your files can reside in; modified, staged, and c
 * **Modified**: means that you've made changes to your file but have'nt staged it yet. The modified file is logical place in 'Working Directory'.
 * **Staged**: means that you have marked a modified file to be added to your next commit. Staged files are logically placed in 'Staging Area'.
 * **Committed**: means that staged file has been successfully saved to git database. Committed files are logicallt placed in 'Git Directory'.
-
-![git-areas.png](../images/git-areas.png)
+<p align="center"><img src="../images/git-areas.png" ></p>
 

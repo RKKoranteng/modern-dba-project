@@ -10,5 +10,5 @@ Git (also known as source control) is used to track and manage changes to code. 
 * Git support ability to rollback to previous versions of source code
 * Git allows multiple developers to work collaboratively
 
-![dev-git](./images/dev-git.jfif)
+![dev-git](../../images/dev-git.jfif)
 

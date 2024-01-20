@@ -96,6 +96,7 @@ $ ls -ltr
 ```
 
 **Modify file and push changes from local back to remote repo** 
+
 In this example, you'll push changes from local repo to remote repo
 
 ```

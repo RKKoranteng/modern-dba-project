@@ -3,7 +3,8 @@
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
-* [Practice](#practice-1)
+* [Practice](#practice)
+  * [Commit to a local rep](#commit-to-a-local-repo)
 
 ## What is Git?
 Git is an open-source command line Version Control System (VCS) originally developed in 2005 by Linus Torvalds (the guy who created Linux os/kernel). There're a few VCS's in the market, but Git has become the clear leader because it's the engine behind many popular source control tools such as Github, Gitlab, Bitbucket. Also, the Git engine works well on a wide range of operating systems and IDEs (Integrated Development Environments). Git helps teams work faster and smarter; it's especially useful for DevOps teams since it helps to reduce development time and increase successful deployments.
@@ -26,6 +27,7 @@ Let's get familiar with some common git terms.
 * **Branch**: A branch is a version of the repo.
 * **Checkout**: `git checkout` command is used switch between branches in a repo.
 * **Commit**: `git commit` creates a saves modifications made to repo. It essentially crrates a savepoint/napshot of the repo.
+* **Merge**: `git merge` command incorporates changes from specified commits into the current branch.
 * **Local repo**: Local repos reside on the computers of team members.
 * **Remote repo**: Remote repos are hosted on a server accessible for all team members (most likely on the internet or local network).
 * **Pull**: `git pull` command grabs changes from a remote repo into the current branch of your local repo.
@@ -53,7 +55,8 @@ If you want to pull down the latest changes from a remote repo without overwriti
 
 Fetch is great for getting a fresh view on all the things that happened in a remote repository. Due to it's "harmless" nature, you can rest assured fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
 
-## Practice 1
+## Practice
+### Commit to a local repo
 ```
 # create a unversioned/untracked directory
 $ mkdir my-interests

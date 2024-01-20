@@ -5,7 +5,7 @@
 * [Git states](#git-states)
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
-  * [Commit to a local rep](#commit-to-a-local-repo)
+ * [My first repo](#my-first-repo)
 
 ## What is Git?
 Git is an open-source command line Version Control System (VCS) originally developed in 2005 by Linus Torvalds (the guy who created Linux os/kernel). There're a few VCS's in the market, but Git has become the clear leader because it's the engine behind many popular source control tools such as Github, Gitlab, Bitbucket. Also, the Git engine works well on a wide range of operating systems and IDEs (Integrated Development Environments). Git helps teams work faster and smarter; it's especially useful for DevOps teams since it helps to reduce development time and increase successful deployments.
@@ -78,7 +78,7 @@ $ git config --global user.email
 ### My first repo
 This practice will walk you through creating a remote repo, cloning it locally, modifying the local repo, then pushing modifications form local to remote repo.
 
-#### Create your first repo
+**1. Create your first repo**
 Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk:)
 
 #### Clone remote repo to your local laptop

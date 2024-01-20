@@ -60,7 +60,7 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 1. We'll be using GitHub as our remote repo. [Create a GitHub acoount (it's free).](https://github.com/join)
 1. We'll be using Git Bash as our emulation layer for Git command line. [Download and install Git Bash (it's free).](https://git-scm.com/downloads)
 1. [Setup access and write data in repositories on GitHub.com using SSH.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-1. Setup your identity on Git Bash (your username and emai). This is important because every Git commit uses this information.
+1. setup your identity (username & email) in Git Bash. This is important because every Git commit uses this information. You need to do this only once if you pass the `--global` option, because then Git will always use that information for anything you do on that system. 
 ```
 # in this example, I'm setting git username to 'Mike Jones'...(please put your GithHub username)
 $ git config --global user.name "Mike Jones"

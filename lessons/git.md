@@ -26,7 +26,7 @@ Let's get familiar with some common git terms.
 * **Clone**: `git clone` command is used to a copy of a repo.
 * **Branch**: A branch is a version of the repo.
 * **Checkout**: `git checkout` command is used switch between branches in a repo.
-* **Commit**: `git commit` creates a saves modifications made to repo. It essentially crrates a savepoint/napshot of the repo.
+* **Commit**: `git commit` creates a saves modifications made to repo. It essentially crrates a savepoint/napshot of the repo. The latest commit is known as the 'head' of the branch.
 * **Merge**: `git merge` command incorporates changes from specified commits into the current branch.
 * **Local repo**: Local repos reside on the computers of team members.
 * **Remote repo**: Remote repos are hosted on a server accessible for all team members (most likely on the internet or local network).
@@ -57,27 +57,38 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 
 ## Practice
 ### Commit to a local repo
+In this example, you'll create a local git repo and add your first commit
+
 ```
-# create a unversioned/untracked directory
+# create a unversioned/untracked directory called 'my-interests'
 $ mkdir my-interests
 
-# turn directory into a git repo
+# turn directory (my-interests) into a local git repo
 $ cd my-interests
 $ git init
 
-# create a untracked file in repo
+# create and add an entry into an untracked file (called 'fav-books.txt') in local repo
+# the file us now logically in your local git working directory
 $ echo "Meditations (by Marcus Aurelius)" > fav-books.txt
 
-# see working tree (repo status)
+# see working tree of local repo
 $ git status
 
-# add modified file to git staging area
+# add modified file ('fav-books.txt) to local repo staging area
+# the file is now logically in your local git staging area
 $ git add fav-books.txt
 
 # see working tree to see change after staging file
 $ git status
 
-
 # save modified file into git directory
+# this also creates a savepoint/snapshot of the repo
 $ git commit -m 'adding my favorit books'
 ```
+
+### Push local changes to a remote rep
+In this example, you'll modify a git tracked file, then push the changes to a remote repo
+
+```
+# add new entry to you file
+$ echo "Atomic Habits (by James Clear)" >> fav-books.txt

@@ -12,7 +12,7 @@ Git (also known as source control) is used to track and manage changes to code. 
 * Git allows multiple developers to work collaboratively
 
 ## Basic Git terminology
-The following list of common Git terminology is not in alphabetic order, but rather in order of sequences that makes sense to connecting the dots.
+Let's get familiar with some common git terms.
 
 * **Repository (repo)**: A Git repository acts as a directory that stores all the content (code, files, images, etc) needed for your project.
 * **Clone**: `git clone` command is used to a copy of a repo.
@@ -21,4 +21,14 @@ The following list of common Git terminology is not in alphabetic order, but rat
 * **Commit**: `git commit` creates a saves modifications made to repo. It essentially crrates a savepoint/napshot of the repo.
 * **Local repo**: Local repos reside on the computers of team members.
 * **Remote repo**: Remote repos are hosted on a server accessible for all team members (most likely on the internet or local network).
-* **Push**: `git push` command updates a remote repo with the commits made to the locl repo
+* **Push**: `git push` command updates a remote repo with the commits made to the locl repo.
+
+## Git states
+Git has three main states that your files can reside in; modified, staged, and committed.
+
+* **Modified**: means that you've made changes to your file but have'nt staged it yet. The modified file is logical place in 'Working Directory'.
+* **Staged**: means that you have marked a modified file to be added to your next commit. Staged files are logically placed in 'Staging Area'.
+* **Committed**: means that staged file has been successfully saved to git database. Committed files are logicallt placed in 'Git Directory'.
+
+![git-areas.png](../images/git-areas.png)
+

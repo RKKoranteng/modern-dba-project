@@ -15,7 +15,7 @@ Git (also known as source control) is used to track and manage changes to code. 
 * Git allows multiple developers to work collaboratively
 
 ## Git vs GitHub vs GitLab
-You've probably heard of Github or GitLab, and you may even wonder how are they different from Git. Simply put, Git is the engine behind GitHub and GitLab. Both GitHub and GitHub are web-based VCS that've put nice UI ontop the native Git engine. If you want, you can use GitHub or GitLab from the user friendly website (no git commands needed), however if you are a geek like me then you'd prefer the git command line. Git commands are the same regardless if you are using GitHub, GitLab, Bitbucket, or any other VCS running on git. The only thing that is different is the UI, a few terminilogies and functionalities. For example GitHub's CI/CD deature is called 'GitHub Action' where as GitLab's CI/CD is called "GitLab CI'. My advice to you is to learn git commands because their transferrable accros any git-powered VCS.
+You've probably heard of Github or GitLab, and you may even wonder how are they different from Git. Simply put, Git is the engine behind GitHub and GitLab. Both GitHub and GitHub are web-based VCS that've put nice UI ontop the native Git engine. If you want, you can use GitHub or GitLab from the user friendly website (no git commands needed), however if you are a geek like me then you'd prefer the git command line. Git commands are the same regardless if you are using GitHub, GitLab, Bitbucket, or any other VCS running on git. The only thing that is different is the UI, a few terminilogies and functionalities. For example GitHub's CI/CD feature is called 'GitHub Action' where as GitLab's CI/CD is called "GitLab CI'. My advice to you is to learn git commands because their transferrable accros any git-powered VCS.
 
 ## Basic Git terminology
 Let's get familiar with some common git terms.
@@ -28,6 +28,8 @@ Let's get familiar with some common git terms.
 * **Commit**: `git commit` creates a saves modifications made to repo. It essentially crrates a savepoint/napshot of the repo.
 * **Local repo**: Local repos reside on the computers of team members.
 * **Remote repo**: Remote repos are hosted on a server accessible for all team members (most likely on the internet or local network).
+* **Pull**: `git pull` command grabs changes from a remote repo into the current branch of your local repo.
+* **Fetch**: `git fetch` command get changes from a remote repo but it doesn't integrate any of the changes into your working files.
 * **Push**: `git push` command updates a remote repo with the commits made to the locl repo.
 * **Status**: `git status` command shows the working tree status; what files have been modifed, marked to be saved, and which files aren't being tracked in repo. 
 
@@ -38,7 +40,18 @@ Git has three main states that your files can reside in; modified, staged, and c
 * **Staged**: means that you have marked a modified file to be added to your next commit. Staged files are logically placed in 'Staging Area'.
 * **Committed**: means that staged file has been successfully saved to git database. Committed files are logicallt placed in 'Git Directory'.
 
-<p align="center"><img src="../images/git-areas.png" ></p>
+<p align="center"><img src="../images/git-areas.png" ><br/><small><i>image: https://git-scm.com</i></small></p>
+
+## Git pull vs fetch
+`git pull` and `git fetch` are very similar (and misleading to some). The key difference between git fetch and pull is that git pull copies changes from a remote repo directly into local repo git working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.
+
+If your workspace has no uncommitted files, and you want to copy the latest changes from a remote repo directly into your local working directory, then issue the git pull command.
+
+If you want to pull down the latest changes from a remote repo without overwriting anything in your working directory, then use git fetch, and then do a git merge when the time is right.
+
+<p align="center"><img src="../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
+
+Fetch is great for getting a fresh view on all the things that happened in a remote repository. Due to it's "harmless" nature, you can rest assured fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
 
 ## Practice 1
 ```

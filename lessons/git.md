@@ -74,10 +74,14 @@ $ git config --global user.email
 ```
 
 ## Practice
-### Create your first repo
+
+### My first repo
+This practice will walk you through creating a remote repo, cloning it locally, modifying the local repo, then pushing modifications form local to remote repo.
+
+#### Create your first repo
 Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk:)
 
-### Clone remote repo to your local laptop
+#### Clone remote repo to your local laptop
 In this example, you'll use Git command to clone your remote repo (on GitHub) to your local repo (on your laptop).
 1. [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
 1. Use the following command to clone remote repo to local
@@ -89,58 +93,32 @@ $ git clone git@github.com:MIKEJONE/hello-world.git
 $ ls -ltr
 ```
 
-### Commit to a local repo
-In this example, you'll create a local git repo and add your first commit
+#### Modify file and push changes from local back to remote repo 
+In this example, you'll push changes from local repo to remote repo
 
 ```
-# create a unversioned/untracked directory called 'my-interests'
-$ mkdir my-interests
+# navigate to your local repo that was just cloned from remote, modify README.md
+# the file (README.md) is now logically in your local git working directory
+$ echo -e "# My favorite books\n\n* Meditations (by Marcus Aurelius)" > README>md 
 
-# turn directory (my-interests) into a local git repo
-$ cd my-interests
-$ git init
-
-# create and add an entry into an untracked file (called 'fav-books.txt') in local repo
-# the file us now logically in your local git working directory
-$ echo "Meditations (by Marcus Aurelius)" > fav-books.txt
-
-# see working tree of local repo
+# check the working tree of local repo; see which git state and area each modified file is in
 $ git status
 
-# add modified file ('fav-books.txt) to local repo staging area
-# the file is now logically in your local git staging area
-$ git add fav-books.txt
+# mark the modifications to be added to your next commit
+# the file is now logically added to your local git staging area
+$ git add README.md
 
-# see working tree to see change after staging file
+# check the working tree of local repo; see which git state and area each modified file is in
 $ git status
 
 # save modified file into git directory with a commit message/description 'adding my favorit books'
 # this also creates a savepoint/snapshot of the repo
 $ git commit -m 'adding my favorit books'
-```
 
-### Push local changes to a remote rep
-In this example, you'll modify a git tracked file, then push the changes to a remote repo
-
-```
-# add new entry to youe file 'fav-books.txt' 
-$ echo "Atomic Habits (by James Clear)" >> fav-books.txt
-
-# see working tree to see change after staging file
+# check the working tree of local repo; see which git state and area each modified file is in
 $ git status
 
-# move the modified file from your local working directory to you local staging area
-# again, the changes to your file are now ready to be added to your next commit
-$ git add fav-books.txt
-
-# commit changes in the file with a message/description 'updating my favortite books'
-# again, this now logically place the file in your local git directory
-$ git commit -m 'updating my favorite books'
-
-# since this local repo does not exist in a remote repo, you have to first create a new connection record to a remote repository.
-# usage: 'git remote add <name> <url>'
-# in the example below, I'm connecting my local repo (my-interests) to a remote repo on GitHub (please put your own GitHub url).
-$ git remote add test https://github.com/RKKoranteng/test
-
-#  the current local repo branch master has no upstream (remote) branch, therefor push the current branch and set the remote as upstream
-$ git push --set-upstream test master
+# push the local repo (on laptop) to remote repo (on GitHub)
+# after issuing the 'git push' command, naviagte to your GitHub UI to see update
+$ git push
+```

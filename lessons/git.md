@@ -24,7 +24,7 @@ Let's get familiar with some common git terms.
 
 * **Repository (repo)**: A Git repository acts as a directory that stores all the content (code, files, images, etc) needed for your project.
 * **Init**: `git init` command is used to start tracking a directory, which means it's now a git repo.
-* **Clone**: `git clone` command is used to a copy of a repo.
+* **Clone**: `git clone` command is used to copy a repo.
 * **Branch**: A branch is a version of the repo.
 * **Checkout**: `git checkout` command is used switch between branches in a repo.
 * **Commit**: `git commit` creates a saves modifications made to repo. It essentially crrates a savepoint/napshot of the repo. The latest commit is known as the 'head' of the branch.
@@ -58,8 +58,8 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 
 ## Setup your practice environment
 1. We'll be using GitHub as our remote repo. [Create a GitHub acoount (it's free).](https://github.com/join)
-1. We'll be using Git Bash as our emulation layer for Git command line. [Download Git Bash (it's free).](https://git-scm.com/downloads).
-1. [Setup access and write data in repositories on GitHub.com using SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+1. We'll be using Git Bash as our emulation layer for Git command line. [Download Git Bash (it's free).](https://git-scm.com/downloads)
+1. [Setup access and write data in repositories on GitHub.com using SSH.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 
 ## Practice

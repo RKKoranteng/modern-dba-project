@@ -6,5 +6,5 @@ Just like many other IT desciplines, the database admin (DBA) is undergoing a ma
 
 
 ### Table of contents
-* [Git](#)
+* [Git](lessons/git)
 

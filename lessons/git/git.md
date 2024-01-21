@@ -50,7 +50,7 @@ Git has three main states that your files can reside in; modified, staged, and c
 <p align="center"><img src="../../images/git-areas.png" ><br/><small><i>image: https://git-scm.com</i></small></p>
 
 ## Git pull vs fetch
-`git pull` and `git fetch` are very similar (and misleading to some). The key difference between git fetch and pull is that git pull copies changes from a remote repo directly into local repo git working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.
+`git pull` and `git fetch` are very similar (and misleading to some). The key difference between git fetch and pull is that git pull copies changes from a remote repo directly into local repo git working directory, while git fetch does not. The git fetch command essentially only copies changes but it does not apply them. The git pull command does both.
 
 If your workspace has no uncommitted files, and you want to copy the latest changes from a remote repo directly into your local working directory, then issue the git pull command.
 

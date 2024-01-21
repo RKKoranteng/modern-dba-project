@@ -1,5 +1,5 @@
 # Git
-* [Lesson objective](#lesson-objective]
+* [Lesson objective](#lesson-objective)
 * [What is Git](#what-is-git)
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)

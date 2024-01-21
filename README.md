@@ -1,4 +1,6 @@
 # The Modern DBA project 
+<p align="center"><img src="../../images/modern-dba-project-cover.png" >
+
 Hi, welcome to 'The Modern DBA Project'; a quickstart guide to help you supercharge your DBA skills to meet todays industry demands.
 
 ## What's a 'modern DBA' ?

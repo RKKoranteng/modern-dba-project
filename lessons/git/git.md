@@ -3,7 +3,6 @@
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
-* [Summary](#summary)
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
 
@@ -55,11 +54,6 @@ If you want to pull down the latest changes from a remote repo without overwriti
 <p align="center"><img src="../../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
 
 Fetch is great for getting a fresh view on all the things that happened in a remote repository. Due to it's "harmless" nature, you can rest assured fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
-
-## Summary
-Here's a diagram detailing how each Git commands works to track changes from local to remote repo, then vice-versa.
-
-<p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
 
 ## Setup your practice environment
 1. We'll be using GitHub as our remote repo. [Create a GitHub acoount (it's free).](https://github.com/join)

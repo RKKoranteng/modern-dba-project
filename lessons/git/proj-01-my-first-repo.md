@@ -4,6 +4,10 @@ This practice will walk you through:
 * cloning remote repo to local repo
 * modifying a local repo and pushing the changes to remote repo
 
+**Tools needed**
+* [GitHub](https://github.com/join)
+* [GitBash](https://git-scm.com/downloads)
+
 <p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
 
 **Create your first repo**

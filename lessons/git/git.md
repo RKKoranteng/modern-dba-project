@@ -1,4 +1,5 @@
 # Git
+* [Lesson objective](#lesson-objective]
 * [What is Git](#what-is-git)
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
@@ -6,8 +7,8 @@
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
 
-## Lesson Objective
-* Quickly learn Git concepts terms, and commands
+## Lesson objective
+* Quickly learn Git concepts, terms, and commands
 * Reinfore theory with hands-on practice
 
 ## What is Git?

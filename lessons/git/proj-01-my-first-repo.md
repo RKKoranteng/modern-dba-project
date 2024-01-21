@@ -10,7 +10,7 @@ This practice will walk you through:
 
 Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk:)
 
-**Clone remote repo to your local laptop**
+## 1. Clone remote repo to your local laptop
 
 In this example, you'll use Git command to clone your remote repo (on GitHub) to your local repo (on your laptop).
 * [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
@@ -23,7 +23,7 @@ $ git clone git@github.com:MIKEJONE/hello-world.git
 $ ls -ltr
 ```
 
-**Modify file and push changes from local back to remote repo** 
+## 2. Modify file and push changes from local back to remote repo 
 
 In this example, you'll push changes from local repo to remote repo
 

@@ -44,7 +44,7 @@ Git has three main states that your files can reside in; modified, staged, and c
 * **Staged**: means that you have marked a modified file to be added to your next commit. Staged files are logically placed in 'Staging Area'.
 * **Committed**: means that staged file has been successfully saved to git database. Committed files are logicallt placed in 'Git Directory'.
 
-<p align="center"><img src="../images/git-areas.png" ><br/><small><i>image: https://git-scm.com</i></small></p>
+<p align="center"><img src="../../images/git-areas.png" ><br/><small><i>image: https://git-scm.com</i></small></p>
 
 ## Git pull vs fetch
 `git pull` and `git fetch` are very similar (and misleading to some). The key difference between git fetch and pull is that git pull copies changes from a remote repo directly into local repo git working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.
@@ -53,14 +53,14 @@ If your workspace has no uncommitted files, and you want to copy the latest chan
 
 If you want to pull down the latest changes from a remote repo without overwriting anything in your working directory, then use git fetch, and then do a git merge when the time is right.
 
-<p align="center"><img src="../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
+<p align="center"><img src="../../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
 
 Fetch is great for getting a fresh view on all the things that happened in a remote repository. Due to it's "harmless" nature, you can rest assured fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
 
 ## Summary
 Here's a diagram detailing how each Git commands works to track changes from local to remote repo, then vice-versa.
 
-<p align="center"><img src="../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
+<p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
 
 ## Setup your practice environment
 1. We'll be using GitHub as our remote repo. [Create a GitHub acoount (it's free).](https://github.com/join)

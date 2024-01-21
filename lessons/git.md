@@ -82,7 +82,7 @@ $ git config --global user.email
 ## Practice
 
 ### My first repo
-This practice will walk you through creating a remote repo, cloning it locally, modifying the local repo, then pushing modifications form local to remote repo.
+This practice will walk you through creating a remote repo, cloning it locally, modifying the local repo, then pushing the changes from local to remote repo.
 
 **Create your first repo**
 
@@ -131,3 +131,6 @@ $ git status
 # after issuing the 'git push' command, naviagte to your GitHub UI to see update
 $ git push
 ```
+
+## Fetch
+This practice will dhow you how to download changes from remote repo to your local repo

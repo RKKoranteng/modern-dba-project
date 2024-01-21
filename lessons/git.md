@@ -3,6 +3,7 @@
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
+* [Summary](#summary)
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
   * [My first repo](#my-first-repo)
@@ -57,13 +58,7 @@ If you want to pull down the latest changes from a remote repo without overwriti
 Fetch is great for getting a fresh view on all the things that happened in a remote repository. Due to it's "harmless" nature, you can rest assured fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
 
 ## Summary
-Here's the gist of how to use Git commands:
-
-1. clone or initialize a local respo
-1. modify desired file(s); this put the files in working directory of local repo
-1. use `git add` command to move modified files to staging directory of local repo; this marks the changes to be added to next commit
-1. use `git commit` command to move modified files to working directory of local repo; this creates a snapshot/savepoint of repo
-1. use `git push` command to push changes from local repo to remote repo
+Here's a diagram detailing how each Git commands works to track changes from local to remote repo, then vice-versa.
 
 <p align="center"><img src="../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
 

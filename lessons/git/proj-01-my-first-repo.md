@@ -6,7 +6,8 @@ This practice will walk you through:
 
 **Tools needed**
 * [GitHub](https://github.com/join)
-* [GitBash](https://git-scm.com/downloads)
+* [Git Bash](https://git-scm.com/downloads)
+> Launch Git Bash application to run all Git commands
 
 <p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
 
@@ -18,7 +19,7 @@ Follow the steps in this [doc to create your first repo on GitHub](https://docs.
 
 In this example, you'll use Git command to clone your remote repo (on GitHub) to your local repo (on your laptop).
 * [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
-* Use the following command to clone remote repo to local
+* Run the following command to clone remote repo to local
 ```
 # in this example, I'm cloning the repository using an SSH key ...(please put your own repo url)
 $ git clone git@github.com:MIKEJONE/hello-world.git

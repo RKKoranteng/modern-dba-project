@@ -7,4 +7,4 @@ Just like many other IT desciplines, the database admin (DBA) is undergoing a ma
 
 ### Table of contents
 * [Git](lessons/git/git.md)
-
+* [Cloud](lessons/cloud/lesson-01-intro-to-cloud.md)

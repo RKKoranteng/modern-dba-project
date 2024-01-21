@@ -6,7 +6,6 @@
 * [Summary](#summary)
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
-  * [My first repo](#my-first-repo)
 
 ## What is Git?
 Git is an open-source command line Version Control System (VCS) originally developed in 2005 by Linus Torvalds (the guy who created Linux os/kernel). There're a few VCS's in the market, but Git has become the clear leader because it's the engine behind many popular source control tools such as Github, Gitlab, Bitbucket. Also, the Git engine works well on a wide range of operating systems and IDEs (Integrated Development Environments). Git helps teams work faster and smarter; it's especially useful for DevOps teams since it helps to reduce development time and increase successful deployments.
@@ -80,57 +79,4 @@ $ git config --global user.email
 ```
 
 ## Practice
-
-### My first repo
-This practice will walk you through creating a remote repo, cloning it locally, modifying the local repo, then pushing the changes from local to remote repo.
-
-**Create your first repo**
-
-Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk:)
-
-**Clone remote repo to your local laptop**
-
-In this example, you'll use Git command to clone your remote repo (on GitHub) to your local repo (on your laptop).
-* [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
-* Use the following command to clone remote repo to local
-```
-# in this example, I'm cloning the repository using an SSH key ...(please put your own repo url)
-$ git clone git@github.com:MIKEJONE/hello-world.git
-
-# once clone from remote repo is completed, you should see it on local repo.
-$ ls -ltr
-```
-
-**Modify file and push changes from local back to remote repo** 
-
-In this example, you'll push changes from local repo to remote repo
-
-```
-# navigate to your local repo that was just cloned from remote, modify README.md
-# the file (README.md) is now logically in your local git working directory
-$ echo -e "# My favorite books\n\n* Meditations (by Marcus Aurelius)" > README>md 
-
-# check the working tree of local repo; see which git state and area each modified file is in
-$ git status
-
-# mark the modifications to be added to your next commit
-# the file is now logically added to your local git staging area
-$ git add README.md
-
-# check the working tree of local repo; see which git state and area each modified file is in
-$ git status
-
-# save modified file into git directory with a commit message/description 'adding my favorit books'
-# this also creates a savepoint/snapshot of the repo
-$ git commit -m 'adding my favorit books'
-
-# check the working tree of local repo; see which git state and area each modified file is in
-$ git status
-
-# push the local repo (on laptop) to remote repo (on GitHub)
-# after issuing the 'git push' command, naviagte to your GitHub UI to see update
-$ git push
-```
-
-## Fetch
-This practice will dhow you how to download changes from remote repo to your local repo
+* [My first repo](proj-01-my-first-repo.md)

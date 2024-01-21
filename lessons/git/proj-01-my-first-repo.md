@@ -4,6 +4,8 @@ This practice will walk you through:
 * cloning remote repo to local repo
 * modifying a local repo and pushing the changes to remote repo
 
+<p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
+
 **Create your first repo**
 
 Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk:)

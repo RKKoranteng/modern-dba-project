@@ -9,7 +9,7 @@ This practice will walk you through:
 * [Git Bash](https://git-scm.com/downloads)
 > Launch Git Bash application to run all Git commands
 
-<p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>https://community.edyoda.com</i></small></p>
+<p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>image: https://community.edyoda.com</i></small></p>
 
 **Create your first repo**
 

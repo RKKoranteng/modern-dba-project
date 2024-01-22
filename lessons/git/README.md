@@ -54,13 +54,18 @@ A Git branch is essentially a copy of the code base. Branches allow you to work 
 
 Each repo contains a default branch called 'main'; the 'main' branch ideally should contain a stable version of your codebase. You may see older repos refer to this deafult branch as 'master', however newer repos typically default to 'main'. Anyway, 'main' or 'master' ... it does'nt matter because they are both the same in the same that it they represent the default branch of a repo and should contain stable copies of codebase.
 
-Every commit in a branch creates a new 'head' for that branch. HEAD is the reference to the most recent commit in the current branch; this means HEAD is just like a pointer that keeps track of the latest commit in your current branch. The diagram below shows two examples:
-* **left image**: a branch with one commit
-* **right image**: a branch with two commits
+Every commit in a branch creates a new 'head' for that branch. HEAD is the reference to the most recent commit in the current branch; this means HEAD is just like a pointer that keeps track of the latest commit in your current branch. (see diagram below). Note, circles are used to signify a commit in Git branch workflow diagrams.
+
 <p align="center"><img src="../../images/git-head.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 
-The first branch you manually create in your repo will always be sourced from the 'main' branch. Here's a typical usecase of why you'd want to create a branch. Imagine your team has just pushed code  
+The first branch you manually create in your repo will always be sourced from the 'main' branch. Let's analyze the diagram below:
 
+* 1. a commit was made to the ~~master~~ main branch
+* 2. 'navbar' branched was created from the main branch
+* 3. a commit was made to navbar branch
+* 4. navbar branch was merged/combined to main branch
+
+<p align="center"><img src="../../images/images/git-branch.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 
 ## Git pull vs fetch
 `git pull` and `git fetch` are very similar (and misleading to some). The key difference between git fetch and pull is that git pull copies changes from a remote repo directly into local repo git working directory, while git fetch does not. The git fetch command essentially only copies changes but it does not apply them. The git pull command does both.

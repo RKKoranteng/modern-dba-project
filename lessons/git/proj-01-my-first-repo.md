@@ -58,3 +58,5 @@ $ git status
 # after issuing the 'git push' command, naviagte to your GitHub UI to see update
 $ git push
 ```
+
+Navigate to your remote repo (GitHub) and refresh your browser window to confirm that your changes from local repo (laptop) have been successfully push.

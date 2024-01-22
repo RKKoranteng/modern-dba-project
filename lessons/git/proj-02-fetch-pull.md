@@ -14,7 +14,15 @@ This practice will:
 ## Why keep local and remote branches in synch?
 It is common for your local repo (on your laptop) to fall behind the remote repo. This happens because multiple people are pushing changes (commits) to the remote repo.
 
-Doing a `git push` from your local to remote repo in such an instance is obviously not going to work because of the inconsistencies between the branch. So how do we resolve the possibility of such an issue and ensure we're always working with the most current copy of the remote code base. Simple, fetch and pull the changes from remote to your local repo.
+Doing a `git push` from your local to remote branch in such an instance is obviously not going to work because of the inconsistencies between the branch. You'll get a nice error like this:
+```
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+The error is really self explanatory. So how do we resolve the possibility of such an issue in the first place; simple, ensure you're always working with the most current copy of the remote code base. 
 
 I typically do a `git pull` before starting work in any repo; this will grab the latest changes into my local branch. Let's give it a shot.
 

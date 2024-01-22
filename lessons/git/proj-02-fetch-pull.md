@@ -64,7 +64,7 @@ $ git pull
 
 ```
 
-At this point your local branch has been successfully synched with remote branch. You can view the file ('README.md') to ensure the changes from remote branch (GitHub) has been applied to your local branch (your laptop).
+At this point your local branch has been successfully synched with remote branch. You can view the file ('README.md') to ensure the changes from remote branch (GitHub) has been applied to your local branch (your laptop). It's now safe to start working in your local branch.
 
 
 

@@ -65,7 +65,7 @@ The first branch you manually create in your repo will always be sourced from th
 * 3. a commit was made to navbar branch
 * 4. navbar branch was merged/combined to main branch
 
-<p align="center"><img src="../../images/images/git-branch.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
+<p align="center"><img src="../../images/git-branch.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 
 ## Git pull vs fetch
 `git pull` and `git fetch` are very similar (and misleading to some). The key difference between git fetch and pull is that git pull copies changes from a remote repo directly into local repo git working directory, while git fetch does not. The git fetch command essentially only copies changes but it does not apply them. The git pull command does both.

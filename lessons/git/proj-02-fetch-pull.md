@@ -14,7 +14,7 @@ This practice will:
 ## Why keep local and remote branches in synch?
 It is common for your local repo (on your laptop) to fall behind the remote repo. This happens because multiple people are pushing changes (commits) to the remote repo.
 
-Doing a `git push` from your local to remote branch in such an instance is obviously not going to work because of the inconsistencies between the branch. You'll get a nice error like this:
+Doing a `git push` from your local to remote branch in such an instance is obviously not going to work because of the inconsistencies between the branches. You'll get a nice error like this:
 ```
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing

@@ -45,7 +45,13 @@ When your remote branch is ahead of your local that means that there's been comm
 
 Your remote branch is ahead of local branch now because this most recent commit exist in the remote, but now in the local.
 
-## 
+## 3. Grab remote changes
+```
+$ git status
+On branch cloud-lesson
+Your branch is behind 'origin/cloud-lesson' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+```
 
 
 

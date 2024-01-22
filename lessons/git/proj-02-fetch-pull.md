@@ -11,15 +11,33 @@ This practice will:
 
 <p align="center"><img src="../../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
 
-## Make sure local repo is up to date
+## Why keep local and remote branches in synch?
 It is common for your local repo (on your laptop) to fall behind the remote repo. This happens because multiple people are pushing changes (commits) to the remote repo.
 
 Doing a `git push` from your local to remote repo in such an instance is obviously not going to work because of the inconsistencies between the branch. So how do we resolve the possibility of such an issue and ensure we're always working with the most current copy of the remote code base. Simple, fetch and pull the changes from remote to your local repo.
 
 I typically do a `git pull` before starting work in any repo; this will grab the latest changes into my local branch. Let's give it a shot.
+
+## 1. Check to make sure local and remote branches are in synch
 ```
-$git pull
+# check the working tree of your branch
+# in this example, both local and remote branches of 'hello-world' repo are in synch (see output of command)
+$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+nothing to commit, working tree clean
 ```
+
+## 2. Force your remote branch to be ahead
+When your remote branch is ahead of your local that means that there's been commit(s) pushed to your remote branch that have not been applied to your local branch. Let's force the remote branch to be ahead.
+* Navigate to your remote repo in GitHub
+* Edit 'README.md' by adding a new entry ... put whatever you want
+* Save and commit to your branch
+
+Your remote branch is ahead of local branch now because this most recent commit exist in the remote, but now in the local.
+
+## 
 
 
 

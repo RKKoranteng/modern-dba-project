@@ -11,11 +11,11 @@ This practice will walk you through:
 
 <p align="center"><img src="../../images/git-commands-and-areas.png" ><br/><small><i>image: https://community.edyoda.com</i></small></p>
 
-**Create your first repo**
+## 1. Create your first repo**
 
 Follow the steps in this [doc to create your first repo on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). In this example, you'll be using GitHub UI (no git commands needed yet :smirk:)
 
-## 1. Clone remote repo to your local laptop
+## 2. Clone remote repo to your local laptop
 
 In this example, you'll use Git command to clone your remote repo (on GitHub) to your local repo (on your laptop).
 * [Obtain the URL for your remote repo (on GitHub)](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
@@ -28,7 +28,7 @@ $ git clone git@github.com:MIKEJONE/hello-world.git
 $ ls -ltr
 ```
 
-## 2. Modify file and push changes from local back to remote repo 
+## 3. Modify file and push changes from local back to remote repo 
 
 In this example, you'll push changes from local repo to remote repo
 

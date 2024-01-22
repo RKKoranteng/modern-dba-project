@@ -27,14 +27,17 @@ The error is self-explanatory. So how do we resolve the possibility of such an i
 I typically do a `git pull` before starting work in any repo; this will grab the latest changes into my local branch. Let's give it a shot.
 
 ## 1. Check to make sure local and remote branches are in synch
+In this example, you're going to ensure both your local and remote branches are in synch
 ```
-# check the working tree of your branch
-# in this example, both local and remote branches of 'hello-world' repo are in synch (see output of command)
-$ git status
-On branch dev
-Your branch is up to date with 'origin/dev'.
+# use git fetch command to compare local and remote branches
+# if the command does not return anything, it means your local and remote branch are in synch
+# else if the command returns a message saying something about 'Enumerating objects ..', then you know there're inconsistencies between the local and remote branch
+$ git fetch
 
-nothing to commit, working tree clean
+# no need to run git status if your branches are in sync
+# but if you want you can still check the working tree of your local branch
+# you should get a message saying that 'Your branch is up to date ...'
+$ git status
 ```
 
 ## 2. Force your remote branch to be ahead
@@ -46,12 +49,22 @@ When your remote branch is ahead of your local that means that there's been comm
 Your remote branch is ahead of local branch now because this most recent commit exists in the remote, but not in the local.
 
 ## 3. Grab remote changes
+Now that we've forced inconsisties between the local and remote branches, let's see how to re-sync the branches
 ```
+# first use git fetch to compare the local and remote branch
+# you should get an message that says something 'Enumerating objects ...' 
+$ git fetch
+
+# if you want more details you can use git status command to see exactly the differences captured during the comparison
+# You should get a message saying something about 'your local branch is behind ...'
 $ git status
-On branch cloud-lesson
-Your branch is behind 'origin/cloud-lesson' by 1 commit, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
+
+# use the git pull command to synch your local branch with remote branch (this is also known as fast-forwarding a branch)
+$ git pull
+
 ```
+
+At this point your local branch has been successfully synched with remote branch. You can view the file ('README.md') to ensure the changes from remote branch (GitHub) has been applied to your local branch (your laptop).
 
 
 

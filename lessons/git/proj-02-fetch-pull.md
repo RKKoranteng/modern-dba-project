@@ -22,7 +22,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-The error is really self explanatory. So how do we resolve the possibility of such an issue in the first place; simple, ensure you're always working with the most current copy of the remote code base. 
+The error is self-explanatory. So how do we resolve the possibility of such an issue in the first place; simple, ensure you're always working with the most current copy of the remote code base. 
 
 I typically do a `git pull` before starting work in any repo; this will grab the latest changes into my local branch. Let's give it a shot.
 

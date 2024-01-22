@@ -41,9 +41,9 @@ nothing to commit, working tree clean
 When your remote branch is ahead of your local that means that there's been commit(s) pushed to your remote branch that have not been applied to your local branch. Let's force the remote branch to be ahead.
 * Navigate to your remote repo in GitHub
 * Edit 'README.md' by adding a new entry ... put whatever you want
-* Save and commit to your branch
+* Save and commit directly to you branch
 
-Your remote branch is ahead of local branch now because this most recent commit exist in the remote, but now in the local.
+Your remote branch is ahead of local branch now because this most recent commit exists in the remote, but not in the local.
 
 ## 3. Grab remote changes
 ```

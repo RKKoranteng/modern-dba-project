@@ -7,4 +7,4 @@ Just like many other IT desciplines, the database admin (DBA) is undergoing a ma
 
 ### Table of contents
 * [Git](lessons/git/README.md)
-* [Cloud (ETA 01.26.2024)](#)
+* [Cloud (ETA 01.26.2024)](lessons/_wip-template.md)

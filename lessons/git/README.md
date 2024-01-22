@@ -50,7 +50,16 @@ Git has three main states that your files can reside in; modified, staged, and c
 <p align="center"><img src="../../images/git-areas.png" ><br/><small><i>image: https://git-scm.com</i></small></p>
 
 ## Branches
+A Git branch is essentially a copy of the code base. Branches allow you to work of changes (such as different features, issues, or bug fixes) without affecting the project's main codebase.
 
+Each repo contains a default branch called 'main'; the 'main' branch ideally should contain a stable version of your codebase. You may see older repos refer to this deafult branch as 'master', however newer repos typically default to 'main'. Anyway, 'main' or 'master' ... it does'nt matter because they are both the same in the same that it they represent the default branch of a repo and should contain stable copies of codebase.
+
+Every commit in a branch creates a new 'head' for that branch. HEAD is the reference to the most recent commit in the current branch; this means HEAD is just like a pointer that keeps track of the latest commit in your current branch. The diagram below shows two examples:
+* **left image**: a branch with one commit
+* **right image**: a branch with two commits
+<p align="center"><img src="../../images/git-head.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
+
+The first branch you manually create in your repo will always be sourced from the 'main' branch. Here's a typical usecase of why you'd want to create a branch. Imagine your team has just pushed code  
 
 
 ## Git pull vs fetch

@@ -4,6 +4,7 @@
 * [Git vs GitHub vs GitLab](#git-vs-github-vs-gitlab)
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
+* [Branches](#branches)
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
 
@@ -60,10 +61,10 @@ Every commit in a branch creates a new 'head' for that branch. HEAD is the refer
 
 The first branch you manually create in your repo will always be sourced from the 'main' branch. Let's analyze the diagram below:
 
-* 1. a commit was made to the ~~master~~ main branch
-* 2. 'navbar' branched was created from the main branch
-* 3. a commit was made to navbar branch
-* 4. navbar branch was merged/combined to main branch
+* a commit was made to the ~~master~~ main branch
+* 'navbar' branched was created from the main branch
+* a commit was made to navbar branch
+* navbar branch was merged/combined to main branch
 
 <p align="center"><img src="../../images/git-branch.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 

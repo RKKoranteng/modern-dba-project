@@ -71,7 +71,7 @@ $ git branch --list
 
 # there're multiple ways to create a new branch. See below:
 #  -> way 1: 'git branch test' will create a new branch called test
-#  -> way 2 - 'git checkout -b test' will create a new branch called test, then it will switch into it (making it the current branch)
+#  -> way 2: 'git checkout -b test' will create a new branch called test, then it will switch into it (making it the current branch)
 # in the example below, you'll create a new branch called 'add-genre' and switch into it
 $ git checkout -b 'add-genre'
 

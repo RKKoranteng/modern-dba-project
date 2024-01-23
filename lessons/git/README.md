@@ -59,6 +59,29 @@ Every commit in a branch creates a new 'head' for that branch. HEAD is the refer
 
 <p align="center"><img src="../../images/git-head.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 
+The `git checkout` command is used to switch from one branch to another within a repo.
+
+Let's get hands-on with branches.
+```
+# this command shows all branches created for a local repo
+# note, this example output shows that there's only one branch (default main branch)
+# also note the '*' next to the 'main' branch signifying this is the current branch (the branch you're currently in)
+$ git branch --list
+* main
+
+# there're multiple ways to create a new branch. See below:
+#  -> way 1: 'git branch test' will create a new branch called test
+#  -> way 2 - 'git checkout -b test' will create a new branch called test, then it will switch into it (making it the current branch)
+# in the example below, you'll create a new branch called 'add-genre' and switch into it
+$ git checkout -b 'add-genre'
+
+# list all branches in this repo and see which is the current branch
+# you should see the new branch (add-genre) is the current branch
+$ git branch --list
+```
+
+## Merge
+
 The first branch you manually create in your repo will always be sourced from the 'main' branch. Let's analyze the diagram below:
 
 * a commit was made to the ~~master~~ main branch

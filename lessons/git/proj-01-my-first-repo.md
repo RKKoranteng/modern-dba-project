@@ -30,13 +30,16 @@ $ ls -ltr
 
 ## 3. Modify file and push changes from local back to remote repo 
 
-In this example, you'll push changes from local repo to remote repo
+In this example, you'll push changes from local repo to remote repo. Navigate to your local repo that was just cloned from remote, modify README.md (see my example README.md below)
+```
+My favorite books
+
+ 1. Meditations (by Marcus Aurelius) 
 
 ```
-# navigate to your local repo that was just cloned from remote, modify README.md
-# the file (README.md) is now logically in your local git working directory
-$ echo -e "# My favorite books\n\n* Meditations (by Marcus Aurelius)" > README>md 
 
+Note, the file (README.md) is now logically in your local git working directory. Let's continue.
+```
 # check the working tree of local repo; see which git state and area each modified file is in
 $ git status
 

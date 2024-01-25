@@ -9,7 +9,7 @@ This practice will:
 * [Git Bash](https://git-scm.com/downloads)
 > Launch Git Bash application to run all Git commands
 
-<p align="center"><img src="../../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
+<p align="center"><img src="../../images/git-head.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 
 ## Display all branches
 

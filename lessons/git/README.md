@@ -5,6 +5,7 @@
 * [Basic Git terminology](#basic-git-terminology)
 * [Git states](#git-states)
 * [Branches](#branches)
+* [Merge](#merge)
 * [Setup your practice environment](#setup-your-practice-environment)
 * [Practice](#practice)
 

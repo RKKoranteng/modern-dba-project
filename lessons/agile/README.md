@@ -2,6 +2,7 @@
 * [Lesson objective](#lesson-objective)
 * [What is Agile Development](#what-is-agile-developmet)
 * [Scrum](#scrum) 
+  * [Why scrum](#why-scrum)
 * [Practice](#practice)
 
 ## Lesson objective
@@ -26,7 +27,8 @@ Scrum is not the only methodology within agile framework, but it's the most adop
 * Lean Development
 * Scaled Agile Framework (SAFe)
 
-**Why scrum?** The scrum method has gained popularity within tech industry because it allows teams to self-manage, learn from experience, and adapt to change. These become competitive advantages when a team is very product/software development focused. Scrum therefore fits perfectly as a project management method for technology projects and it helps teams address the challenges mentioned earlier.
+### Why scrum?
+The scrum method has gained popularity within tech industry because it allows teams to self-manage, learn from experience, and adapt to change. These become competitive advantages when a team is very product/software development focused. Scrum therefore fits perfectly as a project management method for technology projects and it helps teams address the challenges mentioned earlier.
 
 
 Git is an open-source command line Version Control System (VCS) originally developed in 2005 by Linus Torvalds (the guy who created Linux os/kernel). There're a few VCS's in the market, but Git has become the clear leader because it's the engine behind many popular source control tools such as Github, Gitlab, Bitbucket. Also, the Git engine works well on a wide range of operating systems and IDEs (Integrated Development Environments). Git helps teams work faster and smarter; it's especially useful for DevOps teams since it helps to reduce development time and increase successful deployments.

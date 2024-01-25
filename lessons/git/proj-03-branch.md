@@ -1,4 +1,4 @@
-# Doing a fetch and pull
+# Working with branches
 This practice will:
 * get you hands-on experience creating git branch
 * understand how to navigate between branches
@@ -11,19 +11,22 @@ This practice will:
 
 <p align="center"><img src="../../images/git-pull-vs-fetch.gif"><br/><small><i>image: https://www.theserverside.com</i></small></p>
 
-## Why keep local and remote branches in synch?
+## Display all branches
 
-Let's get hands-on with branches.
+Let's get hands-on with branches. This command shows all branches created for a repo
 ```
-# this command shows all branches created for a local repo
 # note, this example output shows that there's only one branch (default main branch)
 # also note the '*' next to the 'main' branch signifying this is the current branch (the branch you're currently in)
 $ git branch --list
 * main
+```
 
-# there're multiple ways to create a new branch. See below:
-#  -> way 1: 'git branch test' will create a new branch called test
-#  -> way 2: 'git checkout -b test' will create a new branch called test, then it will switch into it (making it the current branch)
+## Create a branch
+
+There're multiple ways to create a new branch. See below:
+* Approach #1: use `git branch <branch name>` to create a new branch
+* Approach #2: use `git checkout -b <branch name>` to create a new branch, then automaically check it out (switch into it); making it the current branch
+```
 # in the example below, you'll create a new branch called 'add-genre' and switch into it
 $ git checkout -b 'add-genre'
 

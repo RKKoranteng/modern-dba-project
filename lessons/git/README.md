@@ -62,13 +62,9 @@ Every commit in a branch creates a new 'head' for that branch. HEAD is the refer
 The `git checkout` command is used to switch from one branch to another within a repo.
 
 ## Merge
+In the most frequent use-cases, `git merge` is used to combine two branches. When creating a merge, Git will attempt to auto magically merge the separate branch histories for you. If Git encounters a piece of data that is changed in both histories it will be unable to automatically combine them. This is known as a merge conflict and you'll need to resolve the conflict to continue. 
 
-The first branch you manually create in your repo will always be sourced from the 'main' branch. Let's analyze the diagram below:
-
-* a commit was made to the ~~master~~ main branch
-* 'navbar' branched was created from the main branch
-* a commit was made to navbar branch
-* navbar branch was merged/combined to main branch
+Say we have a new branch called 'navbar' that is based off the 'main' branch. We're done adding our changes and now want to merge this 'navbar' branch into 'main'.
 
 <p align="center"><img src="../../images/git-branch.png"><br/><small><i>image: https://codeinstitute.net</i></small></p>
 

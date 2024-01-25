@@ -59,49 +59,49 @@ Here're the sprint ceremonies (meetings):
 Let's get more details on each sprint ceremony:
 
 #### Sprint planning
-**What happens in this meeting?** Sprint planning is when the team takes time to plan out what work will be completed during the upcoming sprint. These items are traditionally pulled from the product backlog (commonly reffered to as 'backlog'), however they may also come up as new tasks.
+* What happens in this meeting? Sprint planning is when the team takes time to plan out what work will be completed during the upcoming sprint. These items are traditionally pulled from the product backlog (commonly reffered to as 'backlog'), however they may also come up as new tasks.
 
-**When does this ceremony happen?** Sprint planning occurs at the beginning of each sprint.
+* When does this ceremony happen? Sprint planning occurs at the beginning of each sprint.
 
-**Who's involved?** Typically the sprint planning session has a bigger audience consisting of product owners, scrum master, and development team.
+* Who's involved? Typically the sprint planning session has a bigger audience consisting of product owners, scrum master, and development team.
 
-**What is the expected outcome of this ceremony?** By the end of sprint planning everybody on the team should know what the goal of the sprint is; meaning what tasks are to be completed and what tasks are placed in the backlog for later.
+* What is the expected outcome of this ceremony? By the end of sprint planning everybody on the team should know what the goal of the sprint is; meaning what tasks are to be completed and what tasks are placed in the backlog for later.
 
-**How long does this ceremony take?** Sprint planning sessions typically take 1 hour, however I've seen some take 4 hours; especially in larger teams with more complex initiatives.
+* How long does this ceremony take? Sprint planning sessions typically take 1 hour, however I've seen some take 4 hours; especially in larger teams with more complex initiatives.
 <!--<p align="center"><img src="../../images/sprint-planning.jpg" ><br/><small><i>image: https://www.scrum.org</i></small></p>-->
 
 #### Daily standup
-**What happens in this meeting?** Daily stand-up (also known as 'daily scrum') is a daily meeting for the team to update each other on their task progress; what they completed yesterday, what they're working on today, and if they have any blockers in their way.
+* What happens in this meeting? Daily stand-up (also known as 'daily scrum') is a daily meeting for the team to update each other on their task progress; what they completed yesterday, what they're working on today, and if they have any blockers in their way.
 
-**When does this ceremony happen?** As the name implies, daily stand-up occurs once daily, typically in the morning before team members dive into their work.
+* When does this ceremony happen? As the name implies, daily stand-up occurs once daily, typically in the morning before team members dive into their work.
 
-**Who's involved?** Daily stand-up typically has a smaller audience than a sprint planning session. In most cases it consist of the scrum master and development team.
+* Who's involved? Daily stand-up typically has a smaller audience than a sprint planning session. In most cases it consist of the scrum master and development team.
 
-**What is the expected outcome of this ceremony?** The intended goal here is for everyone on the development team to touch base with each other. If there're any blockers then the Scrum master will get involved to help clear that.
+* What is the expected outcome of this ceremony? The intended goal here is for everyone on the development team to touch base with each other. If there're any blockers then the Scrum master will get involved to help clear that.
 
-**How long does this ceremony take?** Typically this is a quick status check that should only take 15-30 minutes.
+* How long does this ceremony take? Typically this is a quick status check that should only take 15-30 minutes.
 
 ### Sprint review
-**What happens in this meeting?** Sprint review is an opportunity for the development team to receive feedback from stakeholders of a project. The goal of this meeting is to receive feedback on work the development team completed during that sprint. The Scrum master organizes the meeting, showcases the teams completed work, and facilitates questions from external stakeholders who are not on the development team.
+* What happens in this meeting? Sprint review is an opportunity for the development team to receive feedback from stakeholders of a project. The goal of this meeting is to receive feedback on work the development team completed during that sprint. The Scrum master organizes the meeting, showcases the teams completed work, and facilitates questions from external stakeholders who are not on the development team.
 
-**When does this ceremony happen?** Sprint review happens at the end of the sprint when all tasks are completed, but before the sprint retrospective occurs.
+* When does this ceremony happen? Sprint review happens at the end of the sprint when all tasks are completed, but before the sprint retrospective occurs.
 
-**Who's involved?** The development team, Scrum master, and product owner are all required to attend this meeting.
+* Who's involved? The development team, Scrum master, and product owner are all required to attend this meeting.
 
-**What is the expected outcome of this ceremony?** This meeting is an opportunity for stakeholders to give feedback and ask questions about the end product. The Scrum master may use this opportunity to work with stakeholders to figure out if the product backlog needs adjustment.
+* What is the expected outcome of this ceremony? This meeting is an opportunity for stakeholders to give feedback and ask questions about the end product. The Scrum master may use this opportunity to work with stakeholders to figure out if the product backlog needs adjustment.
 
-**How long does this ceremony take?** Similar to sprint planning, this meeting should last about an hour. However, I've also seen Sprint review sessions that last up to 4 hours.
+* How long does this ceremony take? Similar to sprint planning, this meeting should last about an hour. However, I've also seen Sprint review sessions that last up to 4 hours.
 
 ### Sprint retrospective
-**What happens in this meeting?** Sprint retrospective (also known as 'retro') is an opportunity for team members to reflect on the past sprint and think about what went well and what could be improved for next time. Unlike a sprint review which focuses on the product, the sprint retro focuses on the process.
+* What happens in this meeting? Sprint retrospective (also known as 'retro') is an opportunity for team members to reflect on the past sprint and think about what went well and what could be improved for next time. Unlike a sprint review which focuses on the product, the sprint retro focuses on the process.
 
-**When does this ceremony happen?** Sprint retro happens at the very end of a sprint; typically after a sprint review meeting.
+* When does this ceremony happen? Sprint retro happens at the very end of a sprint; typically after a sprint review meeting.
 
-**Who's involved?** Sprint retros consist of development team and Scrum master. Anybody who actively worked on tasks throughout the sprint should attend this meeting.
+* Who's involved? Sprint retros consist of development team and Scrum master. Anybody who actively worked on tasks throughout the sprint should attend this meeting.
 
-**What is the expected outcome of this ceremony?** The goal of this ceremony is to identify key points for iteration (process improvement). If team members can find something to change and improve for the upcoming sprint then they should share that with the entire team. Agile methodology relies on continuous improvement, and retrospectives are an integral part of that process. Also, this is a time to give shout-outs to team members for their help/achivements during the sprint; everybody likes when their efforts are acknowleged and appreciated.
+* What is the expected outcome of this ceremony? The goal of this ceremony is to identify key points for iteration (process improvement). If team members can find something to change and improve for the upcoming sprint then they should share that with the entire team. Agile methodology relies on continuous improvement, and retrospectives are an integral part of that process. Also, this is a time to give shout-outs to team members for their help/achivements during the sprint; everybody likes when their efforts are acknowleged and appreciated.
 
-**How long does this ceremony take?** Sprint retro meetings are typically 1 hour.
+* How long does this ceremony take? Sprint retro meetings are typically 1 hour.
 
 ### Baclog refinement
 Backlog ~~grooming~~ refinement is about creating shared understanding on what the product will and won’t do, as well as the effort it will take to implement it. Backlog refinement used to be called 'backlog grooming', however the name changed because grooming became a dirty word that is not tolerated by most companies. Backlog refinement is an ongoing activity during the sprint, however some organizations like to have a dedicated ceremony for this (depending on the complexity of their initiatives). Think of this as a session for teams to identify work and estimate the level of effor (LOE) as a group.

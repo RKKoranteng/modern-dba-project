@@ -12,6 +12,25 @@
 * Quickly learn Agile Development concepts, terms, and commands
 * Reinforce theory with some quizzes
 
+## Project Management
+Project Management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. within project management, there're two tracks that have gained alot of talk as to which one is the best fit for an organization; waterfall vs agile.
+
+<p align="center"><img src="../../images/waterfall-vs-agile.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+
+### Waterfall project management
+<p align="center"><img src="../../images/waterfall.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+* teams work more independently (not required to be in continuous communication or giving reports continuously)
+* requirements are gathered at the start of the project and a project plan is created per those requirements.
+* each phase of the project cascades into the next
+* ideal for projects with fixed requirements, thereby making it **a predictive approach to project management**
+
+## Agile project management
+<p align="center"><img src="../../images/agile.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+* agile project management is an iterative approach to managing projects; continuous releases and incorporating customer feedback with every iteration
+* if done correctly, teams that adopt agile increase their development speed, expand collaboration, and foster the ability to better respond to market trends
+* ideal for projects with changing requirements, thereby making it **an adaptive approach to project management**
+
+
 ## What is agile development?
 Agile software development is an iterative and incremental approach to software development. The goal of agile development is to give teams the ability to create and respond to change. It is a way of dealing with, and ultimately succeeding in, an uncertain and turbulent environment. 
 
@@ -23,7 +42,8 @@ Agile software development is broken down into two main part:
 
 ## Scrum
 ### What is scrum?
-**Scrum is an agile (iterative and incremental) approach to project management**. Scrum is a subset/discipline within Agile project management that helps teams structure and manage their work through a set of values, principles, and practices. People often ask, "Is Scrum an acronym for something?" and the answer is no. It is actually inspired by a scrum in the sport of rugby. In rugby, the team comes together in what they call a scrum to work together to move the ball forward. In this context, Scrum is where the team comes together to move the product forward.
+**Scrum is an agile (iterative and incremental) approach to project management**. Scrum is a subset/discipline within Agile project management that helps teams structure and manage their work through a set of values, principles, and practices inorder to provide value to customers in the shortest amount of time.
+People often ask, "Is Scrum an acronym for something?" and the answer is no. It is actually inspired by a scrum in the sport of rugby. In rugby, the team comes together in what they call a scrum to work together to move the ball forward. In this context, Scrum is where the team comes together to move the product forward.
 
 Scrum is not the only methodology within agile framework, but it's the most adopted within the tech sector. Here're a few of the other types of methodologies within the agile umbrella.
 * Kanban

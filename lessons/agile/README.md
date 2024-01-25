@@ -19,6 +19,7 @@ Project Management is the use of specific knowledge, skills, tools, and techniqu
 
 ### Waterfall project management
 <p align="center"><img src="../../images/waterfall.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+
 * teams work more independently (not required to be in continuous communication or giving reports continuously)
 * requirements are gathered at the start of the project and a project plan is created per those requirements.
 * each phase of the project cascades into the next
@@ -26,6 +27,7 @@ Project Management is the use of specific knowledge, skills, tools, and techniqu
 
 ## Agile project management
 <p align="center"><img src="../../images/agile.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+
 * agile project management is an iterative approach to managing projects; continuous releases and incorporating customer feedback with every iteration
 * if done correctly, teams that adopt agile increase their development speed, expand collaboration, and foster the ability to better respond to market trends
 * ideal for projects with changing requirements, thereby making it **an adaptive approach to project management**

@@ -13,12 +13,12 @@
 * Reinforce theory with some quizzes
 
 ## Project Management
-Inorder to really grasp what Scrum is, we need to first understand project management. Project Management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. within project management, there're two tracks that have gained alot of talk as to which one is the best fit for an organization; waterfall vs agile.
+Inorder to really grasp what Scrum is, we need to first understand project management. 
 
-<p align="center"><img src="../../images/waterfall-vs-agile.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+Project Management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. within project management, there're two tracks that have gained alot of talk as to which one is the best fit for an organization; waterfall vs agile.
 
 ### Waterfall project management
-<p align="center"><img src="../../images/waterfall.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+The waterfall project management approach entails a clearly defined sequence of execution with project phases that do not advance until a phase receives final approval. Here're some general characteristics of waterfall:
 
 * teams work more independently (not required to be in continuous communication or giving reports continuously)
 * requirements are gathered at the start of the project and a project plan is created per those requirements.
@@ -26,14 +26,14 @@ Inorder to really grasp what Scrum is, we need to first understand project manag
 * ideal for projects with fixed requirements, thereby making it **a predictive approach to project management**
 
 ## Agile project management
-<p align="center"><img src="../../images/agile.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
+Agile project management is an iterative approach to managing projects and focuses on continuous releases and incorporating customer feedback with every iteration. Here're are some general characteristics of agile:
 
-* agile project management is an iterative approach to managing projects; continuous releases and incorporating customer feedback with every iteration
+* provide value to customers in the shortest amount of time by focusing on small/incremental releases
 * if done correctly, teams that adopt agile increase their development speed, expand collaboration, and foster the ability to better respond to market trends
 * ideal for projects with changing requirements, thereby making it **an adaptive approach to project management**
 
+We're going to focus on Agile stuff because that's what in demand within the tech sector.
 
-## What is agile development?
 Agile software development is an iterative and incremental approach to software development. The goal of agile development is to give teams the ability to create and respond to change. It is a way of dealing with, and ultimately succeeding in, an uncertain and turbulent environment. 
 
 You may ask, 'what and why are we working in uncertain and turbulent environments'? As discussed previously, modern businesses are software driven and this demand creates a highly competitive and unpredicatble technology sector as teams work to push their feature to market quicker, address bugs, etc. An approach such as [water-fall software development](https://en.wikipedia.org/wiki/Waterfall_model) is simply outdated and can't meet the demands of modern tecnology industries.

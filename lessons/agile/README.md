@@ -1,8 +1,9 @@
 # Agile
 * [Lesson objective](#lesson-objective)
 * [What is Agile Development](#what-is-agile-developmet)
-* [Scrum](#scrum) 
-  * [Why scrum](#why-scrum)
+* Scrum
+  * [What is scrum?](#what-is-scrum)
+  * [Why scrum?](#why-scrum)
 * [Practice](#practice)
 
 ## Lesson objective
@@ -19,6 +20,7 @@ Agile software development is broken down into two main part:
 * an iterative and incremental approach to development (code)
 
 ## Scrum
+### What us scrum?
 Scrum is a subset/discipline within Agile project management that helps teams structure and manage their work through a set of values, principles, and practices. People often ask, "Is Scrum an acronym for something?" and the answer is no. It is actually inspired by a scrum in the sport of rugby. In rugby, the team comes together in what they call a scrum to work together to move the ball forward. In this context, Scrum is where the team comes together to move the product forward.
 
 Scrum is not the only methodology within agile framework, but it's the most adopted within the tech sector. Here're a few of the other types of methodologies within the agile umbrella.

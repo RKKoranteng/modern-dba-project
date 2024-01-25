@@ -13,7 +13,7 @@
 * Reinforce theory with some quizzes
 
 ## Project Management
-Project Management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. within project management, there're two tracks that have gained alot of talk as to which one is the best fit for an organization; waterfall vs agile.
+Inorder to really grasp what Scrum is, we need to first understand project management. Project Management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. within project management, there're two tracks that have gained alot of talk as to which one is the best fit for an organization; waterfall vs agile.
 
 <p align="center"><img src="../../images/waterfall-vs-agile.PNG" ><br/><small><i>image: yikes I forgot where I got this from.</i></small></p>
 

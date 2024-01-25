@@ -81,7 +81,7 @@ Let's get more details on each sprint ceremony:
 
 * How long does this ceremony take? Typically this is a quick status check that should only take 15-30 minutes.
 
-### Sprint review
+#### Sprint review
 * What happens in this meeting? Sprint review is an opportunity for the development team to receive feedback from stakeholders of a project. The goal of this meeting is to receive feedback on work the development team completed during that sprint. The Scrum master organizes the meeting, showcases the teams completed work, and facilitates questions from external stakeholders who are not on the development team.
 
 * When does this ceremony happen? Sprint review happens at the end of the sprint when all tasks are completed, but before the sprint retrospective occurs.
@@ -92,7 +92,7 @@ Let's get more details on each sprint ceremony:
 
 * How long does this ceremony take? Similar to sprint planning, this meeting should last about an hour. However, I've also seen Sprint review sessions that last up to 4 hours.
 
-### Sprint retrospective
+#### Sprint retrospective
 * What happens in this meeting? Sprint retrospective (also known as 'retro') is an opportunity for team members to reflect on the past sprint and think about what went well and what could be improved for next time. Unlike a sprint review which focuses on the product, the sprint retro focuses on the process.
 
 * When does this ceremony happen? Sprint retro happens at the very end of a sprint; typically after a sprint review meeting.
@@ -103,7 +103,7 @@ Let's get more details on each sprint ceremony:
 
 * How long does this ceremony take? Sprint retro meetings are typically 1 hour.
 
-### Baclog refinement
+#### Baclog refinement
 Backlog ~~grooming~~ refinement is about creating shared understanding on what the product will and won’t do, as well as the effort it will take to implement it. Backlog refinement used to be called 'backlog grooming', however the name changed because grooming became a dirty word that is not tolerated by most companies. Backlog refinement is an ongoing activity during the sprint, however some organizations like to have a dedicated ceremony for this (depending on the complexity of their initiatives). Think of this as a session for teams to identify work and estimate the level of effor (LOE) as a group.
 
 

@@ -1,9 +1,9 @@
 # Agile
 * [Lesson objective](#lesson-objective)
-* [What is Agile Development](#what-is-agile-developmet)
+* [What is Agile Development](#what-is-agile-development)
 * Scrum
-  * [What is scrum?](#what-is-scrum)
-  * [Why scrum?](#why-scrum)
+  * [What is scrum](#what-is-scrum)
+  * [Why scrum](#why-scrum)
 * [Practice](#practice)
 
 ## Lesson objective

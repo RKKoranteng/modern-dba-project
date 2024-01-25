@@ -4,8 +4,8 @@
 * [Scrum](#scrum)
   * [What is scrum?](#what-is-scrum)
   * [Why scrum?](#why-scrum)
-  * [Scrum master](#scrm-master)
-  * [Sprints and sprint ceremonies](#sprints-and-sprint-seremonies)
+  * [Scrum master](#scrum-master)
+  * [Sprints and sprint ceremonies](#sprints-and-sprint-ceremonies)
 * [Practice](#practice)
 
 ## Lesson objective
@@ -48,13 +48,12 @@ A 'sprint' is a short time period (typically two week period) when a scrum team 
 Within a 'sprint' there are ceremonies. The term 'sprint ceremony' comes from the concept of celebrating key milestones within the sprint. However, they're less about celebrations and more about establishing consistent checkpoints in a project’s lifecycle. These ceremonies are essentially meetings when the scrum team meet to plan work, discuss work in progress, gather feedback, and more.
 
 Here're the sprint ceremonies (meetings):
-* Sprint planning: plan out what work will be completed during the upcoming sprin
-* Daily stand-up: daily meeting for the team to update each other on their task progress
-* Sprint review: opportunity for the development team to receive feedback from key stakeholders of a project
-* Sprint retrospective: opportunity for team members to reflect on the past sprint
-* Backlog refinement: identify work and estimate the level of effort (as a group)
+* **Sprint planning**: plan out what work will be completed during the upcoming sprin
+* **Daily stand-up**: daily meeting for the team to update each other on their task progress
+* **Sprint review**: opportunity for the development team to receive feedback from key stakeholders of a project
+* **Sprint retrospective**: opportunity for team members to reflect on the past sprint
+* **Backlog refinement**: identify work and estimate the level of effort (as a group)
 
-See image below detailing what we just discussed above.
 <p align="center"><img src="../../images/two-week-sprint.PNG" ><br/><small><i>image: https://www.agilesherpas.com</i></small></p>
 
 ## Practice

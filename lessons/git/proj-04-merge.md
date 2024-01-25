@@ -1,8 +1,6 @@
 # Merging branches
 This practice will:
-* get you hands-on experience creating git branch
-* understand how to navigate between branches
-* teach you how to list all bracnhes in a repo
+* get you hands-on experience merging branches
 
 **Tools needed**
 * [GitHub](https://github.com/join)

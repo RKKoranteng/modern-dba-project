@@ -103,3 +103,4 @@ $ git config --global user.email
 ## Practice
 * [My first repo](proj-01-my-first-repo.md)
 * [Sync local with remote repo](proj-02-fetch-pull.md)
+* [Working with branches](proj-03-branch.md)

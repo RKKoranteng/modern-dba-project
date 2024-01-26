@@ -130,5 +130,15 @@ Let's get more details on each sprint ceremony:
 Backlog ~~grooming~~ refinement is about creating shared understanding on what the product will and won’t do, as well as the effort it will take to implement it. Backlog refinement used to be called 'backlog grooming', however the name changed because grooming became a dirty word that is not tolerated by most companies. Backlog refinement is an ongoing activity during the sprint, however some organizations like to have a dedicated ceremony for this (depending on the complexity of their initiatives). Think of this as a session for teams to identify work and estimate the level of effor (LOE) as a group.
 
 ## Summary
-
-
+* waterfall project management (a predictive approach to project management) is ideal for projects with fixed requirements
+* fixed project requirments ar a thing of past in IT
+* agile project management (an adaptive approach to project management) is ideal for projects with changing requirements
+* changing requirements are the norm in IT now
+* agile approach to managing IT projects helps team meets todays demand for continous changes
+* scrum framework is agile (however it's not the only framework within the agile umbrella)
+* theory for adpative project management is called 'agile'
+* scrum is one of the frameworks for actually 'being agile'
+* scrum consist od set values, principles, and practices
+* a scrum master serves as a coach who helps teams understand and apply scrum principles
+* a sprint is an amount time that scrum teams agree to complete certain tasks 
+* sprints have key meetings known as sprints ceremonies

@@ -3,8 +3,8 @@
 * [What is DevOps?](#what-is-devops)
 * [DevOps vs Scrum](#devops-vs-scrum)
 * [DevOps Framework](#devops-framework)
-  * [Why DevOps?](#why-devops)
-  * [SDLC for DevOps](#sdlc-for-devops)
+* [Why DevOps?](#why-devops)
+* [SDLC for DevOps](#sdlc-for-devops)
   * [Why scrum?](#why-scrum)
   * [Scrum master](#scrum-master)
   * [Sprints and sprint ceremonies](#sprints-and-sprint-ceremonies)
@@ -41,25 +41,25 @@ Both DevOps and Scrum frameworks are tightly integrated, however, this does not 
 ## DevOps Framework
 <p align="center"><img src="../../images/devops-framework.PNG" ><br/><small><i>I forgot where I got this image</i><small></p>
 
-### Why DevOps?
+## Why DevOps?
 You're probably sick of reading this phrase by now, but just a reminder that modern businesses are software driven. This is why DevOps is quickly becoming one of the most valuable disciplines in technology as well as business. DevOps leverages automation to focus on:
 * improve the quality of software
 * improve the speed of software to market
 * tightly integrating development and operations
 
-#### :x: Nope to waterfall
+### :x: Nope to waterfall
 Without going into too much details, the traditional waterfall approach to software development obviously does not meet the need of modern tech sector:
 * waterfall software development framework is not adaptive to changes
 * too slow to develop and deliver product to market
 • defects aren’t discovered until late in the cycle
 
-#### :x: Nope to traditional agile
+### :x: Nope to traditional agile
 Likewise the traditional agile approach to software development also falls short of meeting the demands of modern businesses:
 * great at getting product developed but lacks agility in operations
 * no clear hand-off to Ops
 * only focused on speed of devlopment (forgot about ops)
 
-#### :heavy_check_mark: Yay to DevOps
+### :heavy_check_mark: Yay to DevOps
 This where DevOps (an extension of agile software development) comes in to address modern concern; dev and ops.
 
 **Address concerns of Dev**
@@ -70,34 +70,35 @@ This where DevOps (an extension of agile software development) comes in to addre
 * want predictability
 * focused on keeping systems up to PAR (performance, availability, recoverability)
 
-### SDLC for DevOps
+## SDLC for DevOps
 <p align="center"><img src="../../images/devops-framework2.PNG" width="60%" height="60%" ><br/><small><i>I forgot where I got this image</i><small></p>
 
 The software development life cycle (SDLC) for DevOps combines the principles and practices of both software development and operations to ensure faster, more reliable, and continuous delivery of software. The DevOps SDLC emphasizes automation, collaboration, and continuous feedback throughout the entire software development and operations process. It aims to foster a culture of shared responsibility, enable faster time-to-market, and improve overall software quality.
 
-#### Plan
+### Plan
 In this initial stage, the development team collaborates with stakeholders to define project goals, requirements, and plan the development process. This includes creating a roadmap, prioritizing features, estimating resources, and setting project timelines.
 
-#### Code
+### Code
 During this stage, developers write code based on the requirements and design specifications. DevOps teams emphasize the use of version control systems (such as Git) to manage code changes and ensure collaboration among developers. They also follow coding best practices and conduct code reviews to maintain code quality.
 
-#### Build
+### Build
 The build stage involves compiling the source code into executable binaries or artifacts. DevOps teams use build automation tools like Jenkins to automate the build process. This ensures consistent and reproducible builds and enables continuous integration (CI) practices.
 
-#### Test
+### Test
 Testing is an integral part of the DevOps SDLC. DevOps teams perform various types of testing, such as unit testing, integration testing, system testing, and acceptance testing. Automated testing frameworks and tools are leveraged to enable continuous testing, allowing faster feedback on code changes.
 
-####  Deploy
+###  Deploy
 The deployment stage involves deploying the built artifacts to the target environments, such as development, staging, and production. Infrastructure as Code (IaC) tools like Terraform are used to define and provision the required infrastructure resources. Continuous deployment (CD) practices automate the deployment process, ensuring consistent and reliable deployments.
 
-#### Operate
+### Operate
 Once the software is deployed, the operations team manages the running systems. Monitoring tools are employed to track system health, performance, and security. DevOps teams use log aggregation and analysis tools to proactively identify and resolve issues. They also focus on automating routine operational tasks, such as scaling, backup, and recovery, to reduce manual effort.
 
-#### Monitor
+### Monitor
 Continuous monitoring is crucial in a DevOps SDLC. Monitoring tools capture metrics, logs, and other relevant data to provide insights into the application's performance, usage, and user experience. Monitoring enables teams to detect anomalies, identify bottlenecks, and make data-driven decisions to improve the software.
 
 > I could not have explained it better so I did'nt waste time trying to. The SDLC for DevOps section is from [Nithin's meduim page](https://nithinguruswamy.medium.com)
 
+## Common Tools in DevOps Shops
 The waterfall project management approach entails a clearly defined sequence of execution with project phases that do not advance until a phase receives final approval. Here're some general characteristics of waterfall:
 
 * teams work more independently (not required to be in continuous communication or giving reports continuously)

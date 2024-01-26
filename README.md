@@ -7,5 +7,6 @@ Just like many other IT desciplines, the database admin (DBA) is undergoing a ma
 
 ### Table of contents
 * [Scrum](lessons/agile/scrum.md)
+* [DevOps](lessons/agile/devops.md)
 * [Git](lessons/git/README.md)
 * [Cloud (ETA 01.26.2024)](#)

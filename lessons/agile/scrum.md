@@ -11,8 +11,8 @@
 * [Summary](#summary)
 
 ## Lesson objective
-* Quickly learn Agile Development concepts, terms, and commands
-* Reinforce theory with some quizzes
+* Quickly learn about waterfall vs agile
+* breakdown scrum concepts
 
 ## Project Management
 Inorder to really grasp what Scrum is, we need to first understand project management. 

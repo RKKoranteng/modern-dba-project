@@ -1,12 +1,14 @@
-# Agile
+# Scrum
 * [Lesson objective](#lesson-objective)
-* [What is Agile Development?](#what-is-agile-development)
+* [Project Management](#project-management)
+  * [Waterfall](#waterfall)
+  * [Agile](#agile)
 * [Scrum](#scrum)
   * [What is scrum?](#what-is-scrum)
   * [Why scrum?](#why-scrum)
   * [Scrum master](#scrum-master)
   * [Sprints and sprint ceremonies](#sprints-and-sprint-ceremonies)
-* [Practice](#practice)
+* [Summary](#summary)
 
 ## Lesson objective
 * Quickly learn Agile Development concepts, terms, and commands
@@ -15,9 +17,9 @@
 ## Project Management
 Inorder to really grasp what Scrum is, we need to first understand project management. 
 
-Project Management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. within project management, there're two tracks that have gained alot of talk as to which one is the best fit for an organization; waterfall vs agile.
+Project management is the use of specific knowledge, skills, tools, and techniques to deliver something of value to people. A Project Manager is a person who uses project management methods to manage projects. IT project managers traditionally used a project management methodology known as 'waterfall' to manage their projects, however this methodology is no longer able to meet the unpredicatble nature of the tech sector. This is where 'agile' project management mentholdoy comes into the picture. Let's get more context between the the two management methodologies commonly found in IT; waterfall vs agile. 
 
-### Waterfall project management
+### Waterfall
 The waterfall project management approach entails a clearly defined sequence of execution with project phases that do not advance until a phase receives final approval. Here're some general characteristics of waterfall:
 
 * teams work more independently (not required to be in continuous communication or giving reports continuously)
@@ -25,36 +27,33 @@ The waterfall project management approach entails a clearly defined sequence of 
 * each phase of the project cascades into the next
 * ideal for projects with fixed requirements, thereby making it **a predictive approach to project management**
 
-## Agile project management
+## Agile
 Agile project management is an iterative approach to managing projects and focuses on continuous releases and incorporating customer feedback with every iteration. Here're are some general characteristics of agile:
 
 * provide value to customers in the shortest amount of time by focusing on small/incremental releases
 * if done correctly, teams that adopt agile increase their development speed, expand collaboration, and foster the ability to better respond to market trends
 * ideal for projects with changing requirements, thereby making it **an adaptive approach to project management**
 
-We're going to focus on Agile stuff because that's what in demand within the tech sector.
+As you can see, the agile methodologies is a great approach for managing tech projects to meet todays demands. As discussed previously, modern businesses are software driven and need an adaptive approach to managing changing need. The goal of agile development is to give teams the ability to create and respond to change. It's popularity within IT is solely because it provides a way of dealing with, and ultimately succeeding in, an uncertain and turbulent environment; where pivots are more common than you'd think.
 
-Agile software development is an iterative and incremental approach to software development. The goal of agile development is to give teams the ability to create and respond to change. It is a way of dealing with, and ultimately succeeding in, an uncertain and turbulent environment. 
-
-You may ask, 'what and why are we working in uncertain and turbulent environments'? As discussed previously, modern businesses are software driven and this demand creates a highly competitive and unpredicatble technology sector as teams work to push their feature to market quicker, address bugs, etc. An approach such as [water-fall software development](https://en.wikipedia.org/wiki/Waterfall_model) is simply outdated and can't meet the demands of modern tecnology industries.
-
-Agile software development is broken down into two main part:
-* an agile (iterative and incremental) approach to managing projects
-* an agile (iterative and incremental) approach to development
+At this point it is important to note that the term 'agile' is really just a philosophy. The agile philosophy centers around continuous incremental improvement through small and frequent releases. You can’t really “go agile”, as it takes dedication from the whole team to change the way they think about delivering value to your customers.
 
 ## Scrum
 ### What is scrum?
-**Scrum is an agile (iterative and incremental) approach to project management**. Scrum is a subset/discipline within Agile project management that helps teams structure and manage their work through a set of values, principles, and practices inorder to provide value to customers in the shortest amount of time.
-People often ask, "Is Scrum an acronym for something?" and the answer is no. It is actually inspired by a scrum in the sport of rugby. In rugby, the team comes together in what they call a scrum to work together to move the ball forward. In this context, Scrum is where the team comes together to move the product forward.
+Perfect segway to scrum. We use a frameworks like scrum to help us start 'becoming agile' and practice building agile principles into your everyday communication and work. Before we go any further, lets differentiate agile vs scrum; scrum is a framework for getting work done (the doing), whereas agile is a philosophy for adaptive project managemnt (the theory).
 
-Scrum is not the only methodology within agile framework, but it's the most adopted within the tech sector. Here're a few of the other types of methodologies within the agile umbrella.
+**Scrum is an agile (iterative and incremental) approach to project management**; meaning that scrum is a subset/discipline within Agile project management. Scrum helps teams structure and manage their work through a set of values, principles, and practices inorder to provide value to customers in the shortest amount of time. People often ask, "Is Scrum an acronym for something?" and the answer is no. It is actually inspired by a scrum in the sport of rugby. In rugby, the team comes together in what they call a scrum to work together to move the ball forward. In this context, Scrum is where the team comes together to move the product forward.
+
+You may ask, 'what and why are we working in uncertain and turbulent environments'? I hinted earlier that modern businesses are software driven, which translate to technology dependant. With that comes all the pressures and expectations to innovate, maintain, and scale the companies tech stack ... and many more things than I'd like to list.  
+
+Please note that scrum is not the only framework within agile project methodology, however it's the most adopted within the tech sector. Here're a few other types of fraeworks within the agile umbrella.
 * Kanban
 * Extreme Programming (XP)
 * Lean Development
 * Scaled Agile Framework (SAFe)
 
 ### Why scrum?
-The scrum method has gained popularity within tech industry because it allows teams to self-manage, learn from experience, and adapt to change. These become competitive advantages when a team is very product/software development focused. Scrum therefore fits perfectly as a project management method for technology projects and it helps teams address the challenges mentioned earlier.
+The scrum framework has gained popularity within tech industry because it allows teams to self-manage, learn from experience, and adapt to change. These become competitive advantages when a team is very product/software development focused. Scrum therefore fits perfectly as an agile project management approach for technology projects.
 
 ### Scrum master?
 The scrum master is someone who is an expert at using the scrum method to deliver and manage projects. The scrum master role is a subset or type of project management role.
@@ -90,7 +89,6 @@ Let's get more details on each sprint ceremony:
 * What is the expected outcome of this ceremony? By the end of sprint planning everybody on the team should know what the goal of the sprint is; meaning what tasks are to be completed and what tasks are placed in the backlog for later.
 
 * How long does this ceremony take? Sprint planning sessions typically take 1 hour, however I've seen some take 4 hours; especially in larger teams with more complex initiatives.
-<!--<p align="center"><img src="../../images/sprint-planning.jpg" ><br/><small><i>image: https://www.scrum.org</i></small></p>-->
 
 #### Daily standup
 * What happens in this meeting? Daily stand-up (also known as 'daily scrum') is a daily meeting for the team to update each other on their task progress; what they completed yesterday, what they're working on today, and if they have any blockers in their way.
@@ -128,11 +126,5 @@ Let's get more details on each sprint ceremony:
 #### Baclog refinement
 Backlog ~~grooming~~ refinement is about creating shared understanding on what the product will and won’t do, as well as the effort it will take to implement it. Backlog refinement used to be called 'backlog grooming', however the name changed because grooming became a dirty word that is not tolerated by most companies. Backlog refinement is an ongoing activity during the sprint, however some organizations like to have a dedicated ceremony for this (depending on the complexity of their initiatives). Think of this as a session for teams to identify work and estimate the level of effor (LOE) as a group.
 
+## Summary
 
-
-
-## Practice
-* [My first repo](proj-01-my-first-repo.md)
-* [Sync local with remote repo](proj-02-fetch-pull.md)
-* [Working with branches](proj-03-branch.md)
-* [Merging branches](proj-04-merge.md)

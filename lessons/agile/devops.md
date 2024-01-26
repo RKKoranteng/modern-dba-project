@@ -53,7 +53,6 @@ Without going into too much details, the traditional waterfall approach to softw
 * too slow to develop and deliver product to market
 • defects aren’t discovered until late in the cycle
 
-<p align="center"><img src="../../images/why-devops.PNG" ><br/><small><i>I forgot where I got this image</i><small></p>
 Likewise the traditional agile approach to software development also falls short of meeting the demands of modern businesses:
 * great at getting product developed but lacks agility in operations
 * no clear hand-off to Ops

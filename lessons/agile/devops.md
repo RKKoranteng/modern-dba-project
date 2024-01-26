@@ -5,9 +5,7 @@
 * [DevOps Framework](#devops-framework)
 * [Why DevOps?](#why-devops)
 * [SDLC for DevOps](#sdlc-for-devops)
-  * [Why scrum?](#why-scrum)
-  * [Scrum master](#scrum-master)
-  * [Sprints and sprint ceremonies](#sprints-and-sprint-ceremonies)
+* [Common Tools in DevOps Shops](#common-tools-in-devops-shops)
 * [Summary](#summary)
 
 ## Lesson objective

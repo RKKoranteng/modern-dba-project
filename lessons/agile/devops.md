@@ -4,7 +4,7 @@
 * [DevOps vs Scrum](#devops-vs-scrum)
 * [DevOps Framework](#devops-framework)
   * [Why DevOps?](#why-devops)
-  * [What is scrum?](#what-is-scrum)
+  * [SDLC for DevOps](#sdlc-for-devops)
   * [Why scrum?](#why-scrum)
   * [Scrum master](#scrum-master)
   * [Sprints and sprint ceremonies](#sprints-and-sprint-ceremonies)
@@ -98,7 +98,7 @@ Once the software is deployed, the operations team manages the running systems. 
 #### Monitor
 Continuous monitoring is crucial in a DevOps SDLC. Monitoring tools capture metrics, logs, and other relevant data to provide insights into the application's performance, usage, and user experience. Monitoring enables teams to detect anomalies, identify bottlenecks, and make data-driven decisions to improve the software.
 
-> I could not have explained it better so I did waste time trying to. The SDLC for DevOps section is from [Nithin's meduim page](https://nithinguruswamy.medium.com)
+> I could not have explained it better so I did'nt waste time trying to. The SDLC for DevOps section is from [Nithin's meduim page](https://nithinguruswamy.medium.com)
 
 The waterfall project management approach entails a clearly defined sequence of execution with project phases that do not advance until a phase receives final approval. Here're some general characteristics of waterfall:
 

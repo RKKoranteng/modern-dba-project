@@ -29,19 +29,17 @@ DevOps is a framework, a mind-set, a philosphy, a culture ... DevOps is logical.
 ## DevOps vs Scrum
 We discussed [scrum in the previous section](scrum.md). If you remember, scrum is an agile approach to managing projects. Here we're talking about DevOps; an agile approach to software development. Although they are very similar in nature, they differ in focus areas:
 
-Similarities:
+**Similarities**
 * Scrum and DevOps are both agile
 
-Differences:
+**Differences**
 * Scrum is for agile PMs (project managers using adaptive project management approach)
 * DevOps is for agile Devs (developers using continous integration to deliver software)
 
-<p align="center"><img src="../../images/devops-vs-scrum.PNG" ></p>
-
-As shown in the image above, both DevOps and Scrum frameworks are tightly integrated in process, tools, and terms. However, this does not make them the same because they're focused on different areas of the product delivery to market.
+Both DevOps and Scrum frameworks are tightly integrated, however, this does not make them the same; they're focused on different areas of the product delivery to market.
 
 ## DevOps Framework
-<p align="center"><img src="../../images//devops-framework.PNG" ></p>
+<p align="center"><img src="../../images//devops-framework.PNG" ><br/><small><i>I forgot where I got this image</i><small></p>
 
 
 ### SDLC for DeVOps

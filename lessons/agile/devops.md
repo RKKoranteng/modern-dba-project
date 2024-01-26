@@ -3,7 +3,7 @@
 * [What is DevOps?](#what-is-devops)
 * [DevOps vs Scrum](#devops-vs-scrum)
 * [DevOps Framework](#devops-framework)
-* [Scrum Framework](#scrum-framework)
+  * [Why DevOps?](#why-devops)
   * [What is scrum?](#what-is-scrum)
   * [Why scrum?](#why-scrum)
   * [Scrum master](#scrum-master)
@@ -39,12 +39,51 @@ We discussed [scrum in the previous section](scrum.md). If you remember, scrum i
 Both DevOps and Scrum frameworks are tightly integrated, however, this does not make them the same; they're focused on different areas of the product delivery to market.
 
 ## DevOps Framework
-<p align="center"><img src="../../images//devops-framework.PNG" ><br/><small><i>I forgot where I got this image</i><small></p>
+<p align="center"><img src="../../images/devops-framework.PNG" ><br/><small><i>I forgot where I got this image</i><small></p>
+
+### Why DevOps?
+You're probably sick of reading this phrase by now, but just a reminder that modern businesses are software driven. This is why DevOps is quickly becoming one of the most valuable disciplines in technology as well as business. DevOps leverages automation to focus on:
+
+* improve the quality of software
+* improve the speed of software to market
+* tightly integrating development and operations
+
+Without going into too much details, the traditional waterfall approach to software development obviously does not meet the need of modern tech sector:
+* waterfall software development framework is not adaptive to changes
+* too slow to develop and deliver product to market
+• defects aren’t discovered until late in the cycle
+
+<p align="center"><img src="../../images/why-devops.PNG" ><br/><small><i>I forgot where I got this image</i><small></p>
+Likewise the traditional agile approach to software development also falls short of meeting the demands of modern businesses:
+* great at getting product developed but lacks agility in operations
+* no clear hand-off to Ops
+* only focused on speed of devlopment (forgot about ops)
+
+This where DevOps (an extension of agile software development) comes in to address modern concern:
+
+Address concerns of Dev
+* focused on innovation and new feature adds
+* releasing bug fix and correcting defects
+
+Address concerns of Ops
+* want predictability
+* focused on keeping systems up to PAR (performance, availability, recoverability)
 
 
-### SDLC for DeVOps
+
+
+
+
+
+
+
+
+
+### SDLC for DevOps
+
 The software development life cycle (SDLC) for DevOps combines the principles and practices of both software development and operations to ensure faster, more reliable, and continuous delivery of software.
 
+### C
 
 
 

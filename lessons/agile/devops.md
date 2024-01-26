@@ -71,7 +71,7 @@ This where DevOps (an extension of agile software development) comes in to addre
 * focused on keeping systems up to PAR (performance, availability, recoverability)
 
 ### SDLC for DevOps
-<p align="center"><img src="../../images/devops-framework2.PNG" width="50%" height="50%" ><br/><small><i>I forgot where I got this image</i><small></p>
+<p align="center"><img src="../../images/devops-framework2.PNG" width="60%" height="60%" ><br/><small><i>I forgot where I got this image</i><small></p>
 
 The software development life cycle (SDLC) for DevOps combines the principles and practices of both software development and operations to ensure faster, more reliable, and continuous delivery of software. The DevOps SDLC emphasizes automation, collaboration, and continuous feedback throughout the entire software development and operations process. It aims to foster a culture of shared responsibility, enable faster time-to-market, and improve overall software quality.
 

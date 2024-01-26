@@ -3,7 +3,7 @@
 * [Project Management](#project-management)
   * [Waterfall](#waterfall)
   * [Agile](#agile)
-* [Scrum](#scrum)
+* [Scrum Framework](#scrum-framework)
   * [What is scrum?](#what-is-scrum)
   * [Why scrum?](#why-scrum)
   * [Scrum master](#scrum-master)
@@ -38,7 +38,7 @@ As you can see, the agile methodologies is a great approach for managing tech pr
 
 At this point it is important to note that the term 'agile' is really just a philosophy. The agile philosophy centers around continuous incremental improvement through small and frequent releases. You can’t really “go agile”, as it takes dedication from the whole team to change the way they think about delivering value to your customers.
 
-## Scrum
+## Scrum Framework
 
 <p align="center"><img src="../../images/scrum-framework.png" ><br/><small><i>image: https://miro.medium.com</i></small></p>
 

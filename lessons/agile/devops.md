@@ -9,8 +9,9 @@
 * [Summary](#summary)
 
 ## Lesson objective
-* Quickly learn about waterfall vs agile
-* breakdown scrum concepts
+* Quickly learn about devops
+* understand devops vs scrum
+* breakdown devops sdlc
 
 ## What is DevOps?
 Let's start by establishing that DevOps is an agile approach to software development. This means that DevOps uses agile principles to build and deploy software to market quickly:

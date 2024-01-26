@@ -39,6 +39,8 @@ As you can see, the agile methodologies is a great approach for managing tech pr
 At this point it is important to note that the term 'agile' is really just a philosophy. The agile philosophy centers around continuous incremental improvement through small and frequent releases. You can’t really “go agile”, as it takes dedication from the whole team to change the way they think about delivering value to your customers.
 
 ## Scrum
+<p align="center"><img src="../../images/scrum-framework.png" ><br/><small><i>image: https://miro.medium.com</i></small></p>
+
 ### What is scrum?
 Perfect segway to scrum. We use a frameworks like scrum to help us start 'becoming agile' and practice building agile principles into your everyday communication and work. Before we go any further, lets differentiate agile vs scrum; scrum is a framework for getting work done (the doing), whereas agile is a philosophy for adaptive project managemnt (the theory).
 
